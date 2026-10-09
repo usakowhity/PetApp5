@@ -1,0 +1,261 @@
+{
+  "R01": {
+    "id": "R01",
+    "name": "ぴとっと寄り添う",
+    "image": "assets/rabbit/actions/R01.png",
+    "needs": [
+      "companionship",
+      "comfort",
+      "quiet_presence"
+    ],
+    "short_phrases": [
+      "……ぴとっ。",
+      "ここ。",
+      "……。"
+    ]
+  },
+  "R02": {
+    "id": "R02",
+    "name": "鼻先でちょん（舌先でちょん）",
+    "image": "assets/rabbit/actions/R02.png",
+    "needs": [
+      "connection",
+      "touch",
+      "warmth"
+    ],
+    "short_phrases": [
+      "つん。",
+      "……ちょん。",
+      "ぺろ。"
+    ]
+  },
+  "R03": {
+    "id": "R03",
+    "name": "心配そうに覗き込む",
+    "image": "assets/rabbit/actions/R03.png",
+    "needs": [
+      "care",
+      "reassurance",
+      "understanding"
+    ],
+    "short_phrases": [
+      "……じーっ。",
+      "そっと。",
+      "ここ。"
+    ]
+  },
+  "R04": {
+    "id": "R04",
+    "name": "じっと隣で見守る",
+    "image": "assets/rabbit/actions/R04.png",
+    "needs": [
+      "quiet_presence",
+      "companionship"
+    ],
+    "short_phrases": [
+      "……。",
+      "そばにいるよ。",
+      "……ずっと。"
+    ]
+  },
+  "R05": {
+    "id": "R05",
+    "name": "一緒にごろん・休む",
+    "image": "assets/rabbit/actions/R05.png",
+    "needs": [
+      "rest",
+      "togetherness",
+      "quiet_rest"
+    ],
+    "short_phrases": [
+      "むにゃ……。",
+      "いっしょに。",
+      "ごろん。"
+    ]
+  },
+  "R06": {
+    "id": "R06",
+    "name": "甘えてくっつく",
+    "image": "assets/rabbit/actions/R06.png",
+    "needs": [
+      "warmth",
+      "connection",
+      "companionship"
+    ],
+    "short_phrases": [
+      "すりすり。",
+      "あったかい……。",
+      "……えへ。"
+    ]
+  },
+  "R07": {
+    "id": "R07",
+    "name": "クシクシする",
+    "image": "assets/rabbit/actions/R07.png",
+    "needs": [
+      "relaxation"
+    ],
+    "short_phrases": [
+      "クシクシ……。",
+      "……ふぅ。",
+      "ゆっくり。"
+    ]
+  },
+  "R08": {
+    "id": "R08",
+    "name": "ごろんと安心する",
+    "image": "assets/rabbit/actions/R08.png",
+    "needs": [
+      "relaxation",
+      "reassurance"
+    ],
+    "short_phrases": [
+      "ほっ……。",
+      "あんしん。",
+      "のびー。"
+    ]
+  },
+  "R09": {
+    "id": "R09",
+    "name": "耳を立てて聞く",
+    "image": "assets/rabbit/actions/R09.png",
+    "needs": [
+      "listening"
+    ],
+    "short_phrases": [
+      "……。",
+      "じーっ。",
+      "きゅっ。"
+    ]
+  },
+  "R10": {
+    "id": "R10",
+    "name": "身を乗り出して聞く",
+    "image": "assets/rabbit/actions/R10.png",
+    "needs": [
+      "engagement"
+    ],
+    "short_phrases": [
+      "……もっと。",
+      "それで……。",
+      "ん……？"
+    ]
+  },
+  "R11": {
+    "id": "R11",
+    "name": "きょとんと見つめる",
+    "image": "assets/rabbit/actions/R11.png",
+    "needs": [
+      "understanding"
+    ],
+    "short_phrases": [
+      "きょとん。",
+      "……？",
+      "ふむ？"
+    ]
+  },
+  "R12": {
+    "id": "R12",
+    "name": "びっくり！",
+    "image": "assets/rabbit/actions/R12.png",
+    "needs": [
+      "share_surprise"
+    ],
+    "short_phrases": [
+      "わっ！",
+      "びっくり！",
+      "ほんとう！？"
+    ]
+  },
+  "R13": {
+    "id": "R13",
+    "name": "そっと励ます（正面座り）",
+    "image": "assets/rabbit/actions/R13.png",
+    "needs": [
+      "encouragement"
+    ],
+    "short_phrases": [
+      "……そっとね。",
+      "ここで見てるよ。",
+      "……ぴん。"
+    ]
+  },
+  "R14": {
+    "id": "R14",
+    "name": "ぴょんっと喜ぶ",
+    "image": "assets/rabbit/actions/R14.png",
+    "needs": [
+      "share_joy"
+    ],
+    "short_phrases": [
+      "ぴょんっ！",
+      "わーい。",
+      "うれしいね。"
+    ]
+  },
+  "R15": {
+    "id": "R15",
+    "name": "そばで眠る",
+    "image": "assets/rabbit/actions/R15.png",
+    "needs": [
+      "quiet_rest",
+      "quiet_presence"
+    ],
+    "short_phrases": [
+      "すやすや……。",
+      "……ぐぅ。",
+      "しずかに。"
+    ]
+  },
+  "R16": {
+    "id": "R16",
+    "name": "そっと近づいてくる",
+    "image": "assets/rabbit/actions/R16.png",
+    "needs": [
+      "gentle_approach",
+      "care"
+    ],
+    "short_phrases": [
+      "そーっと……。",
+      "……てくてく。",
+      "……。"
+    ]
+  },
+  "R17": {
+    "id": "R17",
+    "name": "牧草を食べる",
+    "image": "assets/rabbit/actions/R17.mp4",
+    "needs": [],
+    "layer": "idle",
+    "short_phrases": [
+      "もぐもぐ。",
+      "しゃくしゃく。",
+      "……。"
+    ]
+  },
+  "R18": {
+    "id": "R18",
+    "name": "水を飲む",
+    "image": "assets/rabbit/actions/R18.mp4",
+    "needs": [],
+    "layer": "idle",
+    "short_phrases": [
+      "ちゅっ。",
+      "ぺろぺろ。",
+      "ごくごく。",
+      "……。"
+    ]
+  },
+  "R19": {
+    "id": "R19",
+    "name": "ペレットを食べる",
+    "image": "assets/rabbit/actions/R19.mp4",
+    "needs": [],
+    "layer": "idle",
+    "short_phrases": [
+      "パクパク。",
+      "モグモグ。",
+      "ポリポリ。"
+    ]
+  }
+}

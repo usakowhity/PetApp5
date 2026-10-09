@@ -1,0 +1,95 @@
+/* PetApp5 - Healing Rabbit Diary 基本スタイル */
+
+body {
+    font-family: "Segoe UI", "Hiragino Sans", "Meiryo", sans-serif;
+    background-color: #f7f9fc;
+    color: #222;
+    margin: 0;
+    padding: 40px;
+
+    /* ★ ページ全体を中央寄せレイアウトに変更 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1.app-title {
+    font-size: 26px;
+    color: #1a4f8b;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#rabbit-display {
+    margin-top: 30px;
+    max-width: 400px;
+}
+
+/* ★ 画像中央寄せ */
+#rabbit-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#speech-bubble {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e8f0ff;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* ★ 日記入力欄も中央寄せ */
+#diary-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#diary-input {
+    width: 300px;
+    height: 60px;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+#analyze-button {
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #1a73e8;
+    color: white;
+    cursor: pointer;
+}
+
+#analyze-button:hover {
+    background-color: #155ab6;
+}
+
+/* READMEリンクのスタイル */
+#footer-links {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.readme-link {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.readme-link:hover {
+    text-decoration: underline;
+}
+

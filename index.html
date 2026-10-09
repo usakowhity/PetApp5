@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>癒しウサギの日記 - PetApp5 Web</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <h1 class="app-title">癒しウサギの日記</h1>
+
+    <!-- =========================
+         Direct Talk / 音声認識層
+         ========================= -->
+    <div id="speech-section">
+
+        <div id="petname-control">
+            <input
+                id="petname-input"
+                placeholder="ウサギの名前を入力してね…"
+            />
+
+            <button id="petname-save">
+                名前を設定
+            </button>
+        </div>
+
+        <!-- v3.1: 「話しかけてね」 → ボタン化 -->
+        <p id="talk-hint">
+            <button id="start-voice">話しかける</button>
+        </p>
+
+        <!-- 音声認識結果の表示 -->
+        <div id="speech-result"></div>
+
+    </div>
+
+
+    <!-- =========================
+     Rabbit UI
+     ========================= -->
+    <div id="rabbit-area">
+        <img id="rabbit-img" src="" alt="Rabbit" />
+        <div id="rabbit-phrase"></div>
+        <div id="speech-bubble"></div>
+    </div>
+
+
+
+    <!-- =========================
+         Diary Layer
+         ========================= -->
+    <div id="diary-section">
+
+        <textarea
+            id="diary-input"
+            placeholder="今日の気持ちを書いてね…"
+        ></textarea>
+
+        <button id="analyze-button">
+            ウサギに聞かせる
+        </button>
+
+    </div>
+
+
+    <!-- =========================
+         README
+         ========================= -->
+    <footer id="footer-links">
+        <a
+            class="readme-link"
+            href="./README.md"
+            target="_blank"
+        >
+            📘 PetApp5 の使い方（README）
+        </a>
+    </footer>
+
+
+    <script
+        type="module"
+        src="./js/app.js"
+    ></script>
+
+</body>
+</html>
+

@@ -1,0 +1,60 @@
+{
+  "sadness": {
+    "companionship": ["R01"],
+    "quiet_presence": ["R04"],
+    "listening": ["R09"],
+    "encouragement": ["R13"],
+    "gentle_approach": ["R16"],
+    "understanding": ["R03", "R11"]
+  },
+
+  "loneliness": {
+    "connection": ["R02", "R06"],
+    "companionship": ["R01", "R04", "R06", "R15"]
+  },
+
+  "anxiety_fear": {
+    "reassurance": ["R03", "R04", "R08"],
+    "quiet_presence": ["R04"],
+    "listening": ["R09"],
+    "companionship": ["R01", "R16"]
+  },
+
+  "anger": {
+    "relaxation": ["R07", "R05"],
+    "quiet_presence": ["R04"],
+    "listening": ["R09"]
+  },
+
+  "fatigue_apathy": {
+    "togetherness": ["R05"],
+    "quiet_rest": ["R15"],
+    "quiet_presence": ["R04"]
+  },
+
+  "joy": {
+    "share_joy": ["R14"]
+  },
+
+  "pleasant": {
+    "connection": ["R02"],
+    "companionship": ["R04"]
+  },
+
+  "relief": {
+    "relaxation": ["R08", "R05"],
+    "rest": ["R05"]
+  },
+
+  "affection": {
+    "warmth": ["R06"]
+  },
+
+  "gratitude": {
+    "share_joy": ["R14"]
+  },
+
+  "empathy_compassion": {
+    "understanding": ["R11", "R03"]
+  }
+}
