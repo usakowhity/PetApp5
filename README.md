@@ -1,4 +1,8 @@
-\# 癒しウサギの日記 🐇  
+```markdown
+
+\# 癒しウサギの日記 🐇
+
+
 
 PetApp5-Web v3.2.7
 
@@ -10,11 +14,17 @@ PetApp5-Web v3.2.7
 
 \## 🌸 概要
 
-\*\*癒しウサギの日記\*\* は、あなたの気持ちをウサギに話しかけたり、日記として書き留めたりできるウェブアプリです。  
 
-ウサギがあなたの言葉に反応し、時間帯に応じて自然な行動を見せてくれます。  
 
-音声認識・感情解析・行動選択が連携した、PetApp シリーズ第5作です。
+\*\*癒しウサギの日記\*\* は、あなたの気持ちをウサギに話しかけたり、日記として書き留めたりできるウェブアプリです。
+
+
+
+ウサギがあなたの言葉に反応し、時間帯に応じて自然な行動を見せてくれます。
+
+
+
+音声認識・感情解析・行動選択が連携した、PetAppシリーズ第5作です。
 
 
 
@@ -38,7 +48,7 @@ PetApp5-Web v3.2.7
 
 | 🐰 \*\*UI設定\*\* | ウサギの名前を自由に設定できます。 |
 
-| ☁️ \*\*GitHub Pages公開\*\* | \[https://usakowhity.github.io/PetApp5/](https://usakowhity.github.io/PetApp5/) で公開中。 |
+| ☁️ \*\*GitHub Pages公開\*\* | \[アプリを開く](https://usakowhity.github.io/PetApp5/) |
 
 
 
@@ -118,9 +128,11 @@ PetApp5-Web v3.2.7
 
 
 
-時間帯に応じてウサギが自動的に行動します。  
+時間帯に応じてウサギが自動的に行動します。
 
-20秒ごとに短文（`short\_phrases`）をランダム表示。
+
+
+20秒ごとに短文（`short\_phrases`）をランダム表示します。
 
 
 
@@ -160,7 +172,7 @@ PetApp5-Web v3.2.7
 
 | 行動選択 | `rabbitActionSelector.js` による emotion × need マッピング |
 
-| 保存 | localStorage に日記データを保存（PWA対応予定） |
+| 保存 | localStorage による日記保存は今後の予定 |
 
 
 
@@ -172,31 +184,31 @@ PetApp5-Web v3.2.7
 
 
 
-```
+```text
 
 PetApp5/
 
-&#x20;├─ index.html
+├─ index.html
 
-&#x20;├─ js/
+├─ js/
 
-&#x20;│   ├─ app.js
+│  ├─ app.js
 
-&#x20;│   ├─ uiRenderer.js
+│  ├─ uiRenderer.js
 
-&#x20;│   └─ rabbitActionSelector.js
+│  └─ rabbitActionSelector.js
 
-&#x20;├─ data/
+├─ data/
 
-&#x20;│   └─ rabbit\_actions.json
+│  └─ rabbit\_actions.json
 
-&#x20;├─ css/
+├─ css/
 
-&#x20;│   └─ style.css
+│  └─ style.css
 
-&#x20;└─ assets/
+└─ assets/
 
-&#x20;    └─ 画像ファイル（ウサギ）
+&#x20;  └─ 画像ファイル（ウサギ）
 
 ```
 
@@ -210,23 +222,27 @@ PetApp5/
 
 
 
-\- 公開URL: \[https://usakowhity.github.io/PetApp5/](https://usakowhity.github.io/PetApp5/)
+\- \*\*公開URL:\*\* \[癒しウサギの日記を開く](https://usakowhity.github.io/PetApp5/)
 
-\- リポジトリ: \[https://github.com/usakowhity/PetApp5](https://github.com/usakowhity/PetApp5)
+\- \*\*GitHubリポジトリ:\*\* \[PetApp5](https://github.com/usakowhity/PetApp5)
 
-\- バージョン: \*\*v3.2.7\*\*
+\- \*\*バージョン:\*\* \*\*v3.2.7\*\*
 
-\- 更新内容:  
 
-&#x20; - Direct Talk辞書修正（R10/R11）  
 
-&#x20; - 「ねんね」「おいで」追加  
+\### v3.2.7 更新内容
 
-&#x20; - 「おりこう」「お利口」→R14  
 
-&#x20; - Idle短文取得の typo 修正  
 
-&#x20; - UIタイトル統一（癒しウサギの日記）
+\- Direct Talk辞書修正（R10/R11）
+
+\- 「ねんね」「おいで」追加
+
+\- 「おりこう」「お利口」→ R14
+
+\- Idle短文取得の typo 修正
+
+\- UIタイトル統一（癒しウサギの日記）
 
 
 
@@ -236,11 +252,13 @@ PetApp5/
 
 \## 🪄 今後の予定
 
-\- PWA対応（オフライン日記保存）  
 
-\- ローカル通知機能（ウサギからの声かけ）  
 
-\- 行動ログの自動記録とグラフ表示  
+\- PWA対応（オフライン日記保存）
+
+\- ローカル通知機能（ウサギからの声かけ）
+
+\- 行動ログの自動記録とグラフ表示
 
 
 
@@ -250,9 +268,15 @@ PetApp5/
 
 \## 🖋️ 作者
 
-\*\*usakowhity\*\*  
 
-独立開発者／PetAppシリーズ制作者  
+
+\*\*usakowhity\*\*
+
+
+
+独立開発者／PetAppシリーズ制作者
+
+
 
 リアルな動物描写と自然な対話設計を重視しています。
 
